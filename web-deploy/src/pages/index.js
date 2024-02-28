@@ -1,12 +1,13 @@
 import React from "react";
 // import { Link } from "gatsby";
 import Layout from "../components/Layout";
-// import styles from "../styles/global.css";
+import Nav from "../components/Nav";
 
 export default function Home() {
   return (
     <Layout>
       <section>
+        <Nav />
         <div>
           <h2>web deploy for Gatsby</h2>
           <h3>Develop & Deploy</h3>
